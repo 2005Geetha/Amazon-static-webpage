@@ -202,8 +202,8 @@ h2{
 }
 .next{
     position:relative;
-    top: 700px;
-    width: 1520px;
+    top: 750px;
+    width: 1500px;
     background-color: white;
 }
 .Fashion{
@@ -220,7 +220,8 @@ h2{
     height: 60px;
     background-color: #37475A;
     text-align: center;
-
+    position: relative;
+    right:10px;
 }
 .container {
     max-width: 1520px;
@@ -253,10 +254,31 @@ footer{
     padding-left: 4px;
 }
 .container .am{
-    background-color: aqua;
-    display: flex;
-    justify-items: center;
-
+    position: relative;
+    left:500px;
+}
+.container .subject{
+    padding:5px;
+    background-color:none;
+    background-color: #232F3E;
+    position:relative;
+    border: 1px solid white;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+    left:550px;
+}
+.container .language{
+    font-size: 13px;
+    padding: 5px;
+    position: relative;
+    background-color: #232F3E;
+    border-radius: 5px;
+    bottom:55px;
+    color: white;
+    left:850px;
+    border: 1px solid white;
+    background-color: none;
 }
 .col{
     border-bottom:1px solid lavender
