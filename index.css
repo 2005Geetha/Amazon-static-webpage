@@ -1,0 +1,263 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #232F3E;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar .location {
+    color: white;
+    font-size: 14px;
+    margin-left: -30px;
+}
+.submit img{
+    margin-bottom: 30px;
+}
+.navbar .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: 750px;
+    margin-left: -30px;
+}
+.navbar .search-bar select {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #f3f3f3;
+}
+.navbar .search-bar input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.navbar .search-bar button {
+    padding: 10px;
+    border: none;
+    background-color: #f0c14b;
+    cursor: pointer;
+    width:100px;
+    height:43px;
+}
+.sea{
+    position: relative;
+    top: -4px;
+}
+.navbar .actions {
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    right: 10px;
+}
+.navbar .actions .ind{
+    position:relative;
+    top:1px;
+}
+.navbar .actions .ind .en{
+    position:relative;
+}
+.navbar .actions a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    position:relative;
+    right:9px;
+}
+.navbar .actions .cart {
+    position: relative;
+    
+}
+.list ol{
+    list-style-type: none;
+}
+.lis{
+    display:inline-flex;
+    flex-direction: row;
+    color: white;
+    padding: 10px;
+}
+.list{
+    background-color: black;
+}
+.list li:hover{
+    border: 1px solid white;
+}
+.oo{
+    margin-bottom: 12px;
+}
+img{
+    position:relative;
+    top:10px;
+}
+.search{
+    width:550px;
+    height:40px;
+    border-radius: 10px;
+    padding:10px;
+}
+.s{
+    width:45px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+.l{
+    color: white;
+    width:210px;
+    height: 40px;
+    border: black;
+    padding:20px;
+    position:relative;
+    bottom: 30px;
+}
+button{
+    background-color: black;
+    border:none;
+    width: 150px;
+    height: 40px;
+}
+.btn{
+    width:90px;
+    height:40px;
+    color:white;
+    font-size: 18px;
+}
+.btn1{
+    width:50px;
+    height:20px;
+    color:white;
+    font-size: 20px;
+}
+.main{
+    width:1420px;
+    height:1020px;
+    position:absolute;
+    top:500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.arr{
+    background-color: white;
+    width:312px;
+    height:420px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inherit;
+}
+h2{
+    display: inherit;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.pic{
+    width:140px;
+    height:125px;
+    padding:20px;
+    border-radius: 5px;
+    display: inherit;
+}
+.cap{
+    display: inherit;
+    font-size: 12px;
+    font-weight:500;
+    text-align:center;
+}
+.bottom{
+    display:block;
+    text-decoration: none;
+    text-align: start;
+    padding-right: 160px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.next{
+    position:relative;
+    top: 700px;
+    width: 1520px;
+    background-color: white;
+}
+.Fashion{
+    width:200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    display:inline-block;
+    padding-bottom: 30px;
+    padding-left:70px;
+}
+.backtop{
+    width:1500px;
+    height: 60px;
+    background-color: #37475A;
+    text-align: center;
+
+}
+.container {
+    max-width: 1520px;
+    position: relative;
+    top: 800px;
+    background-color: #232F3E;
+    color: #f0f0f0;
+}
+footer{
+    text-align: left;
+}
+.container ul li a {
+    color: white;
+    font-size: 14px;
+}
+.down{
+    margin: 20px;
+    width:1500px;
+    height:100px;
+    padding:20px;
+    background-color: #131A22;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    right: 9px;
+    top:50px
+}
+.down a{
+    color:white;
+    padding-left: 4px;
+}
+.container .am{
+    background-color: aqua;
+    display: flex;
+    justify-items: center;
+
+}
+.col{
+    border-bottom:1px solid lavender
+}
